@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 50vw bottom 45vh, left 50vw top 45vh;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    width: 340px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.header img{
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.pfp img {
+    position: absolute;
+    margin-top: -50px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 73px;
+}
+
+.text h3 { 
+    color: hsl(229, 23%, 23%);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.text p {
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+}
+
+.location {
+    text-align: center;
+    margin-top: 8px;
+    color: hsl(227, 10%, 46%);
+    font-size: 14px;
+}
+
+hr {
+    margin-top: 24px;
+    height: 1px;
+    background-color: hsla(227, 10%, 46%, 0.192);
+    border: none;
+}
+
+.datas {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    column-gap: 10px;
+    column-count: 3;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.datas h3 {
+    color: hsl(229, 23%, 23%);
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.datas p {
+    color: hsl(227, 10%, 46%);
+    font-size: 11px;
+    letter-spacing: 1px;
+}
